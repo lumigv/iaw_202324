@@ -172,11 +172,11 @@ Use un símbolo de almohadilla seguido de las palabras del título en minúscula
 Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso sería recomendable incluir la / al principio. Podría mostrarse en el ordenador, pero no al servidor web.
 
 
-![Markdown](/img/logomarkdown.png "logo Markdown")
+![Markdown](img/logomarkdown.png "logo Markdown")
 
 Ó
 
-<image src="/img/logomarkdown.png" alt="logo Markdown">  
+<image src="img/logomarkdown.png" alt="logo Markdown">  
 
 
 #### Imágenes desde un enlace  
