@@ -181,6 +181,7 @@ Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso s
 
 #### Imágenes desde un enlace
 
+
 ![Linux](https://www.markdownguide.org/assets/images/tux.png)
 
 Ó
