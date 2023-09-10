@@ -174,7 +174,7 @@ Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso s
 
 Ó
 
-<image src="/images/logomarkdown.png" alt="logo Markdown">
+<image src="/img/logomarkdown.png" alt="logo Markdown">
 
 #### Imágenes desde un enlace
 
