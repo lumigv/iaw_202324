@@ -177,7 +177,7 @@ Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso s
 
 <image src="img/logomarkdown.png" alt="logo Markdown">  
 
-#### Imágenes desde un enlace
+#### Imágenes desde un ENLACE DEFINITIVO
 
 ![Linux](https://www.markdownguide.org/assets/images/tux.png)
 
