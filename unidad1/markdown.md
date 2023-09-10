@@ -176,13 +176,15 @@ Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso s
 
 <image src="/img/logomarkdown.png" alt="logo Markdown">
 
-#### Imágenes desde un enlace
+#### Imágenes desde un enlace  
+
 
 ![Linux](https://www.markdownguide.org/assets/images/tux.png)
 
 Ó
 
-<image src="https://www.markdownguide.org/assets/images/tux.png" alt="Linux">
+<image src="https://www.markdownguide.org/assets/images/tux.png" alt="Linux">  
+
 
 
 #### Añadir un pie de foto a una imagen
