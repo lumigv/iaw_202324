@@ -25,7 +25,7 @@ En este taller de introducción a Markdown aprenderemos los comandos básicos pa
 ### Bloques de texto
 
 #### Párrafos
-Para generar un nuevo párrafo basta simplemente separa el texto mediante una línea en blanco (pulsando 2 veces INTRO):
+Para generar un nuevo párrafo basta simplemente separa el texto mediante una línea en blanco (pulsando 2 VECES INTRO):
 
 Esto es un párrafo.
 
