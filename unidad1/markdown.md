@@ -25,7 +25,7 @@ En este taller de introducción a Markdown aprenderemos los comandos básicos pa
 ### Bloques de texto
 
 #### Párrafos
-Para crear un nuevo párrafo basta con dejar una línea en blanco entre una o más líneas de texto:
+Para generar un nuevo párrafo basta simplemente separa el texto mediante una línea en blanco (pulsando 2 veces INTRO):
 
 Esto es un párrafo.
 
@@ -33,7 +33,7 @@ Esto es otro párrafo.
 
 #### Saltos de línea
 
-Para añadir un salto de línea basta con dejar dos o mas espacios en blanco al final de la línea y luego pulsas INTRO.  
+Para añadir un salto de línea y empezar en una línea siguiente dentro del mismo párrafo basta con dejar dos o mas espacios en blanco al final de la línea y luego pulsas INTRO.  
 
 Esto es una línea.  
 Y esta es otra línea.
@@ -128,6 +128,7 @@ Puedes añadir tantas líneas como quieras.
 ___
 
 ### Vínculos o enlaces
+
 Para crear un enlace debes situar entre corchetes el texto que quieres enlazar, también conocido como anchor. Seguidamente, debes usar paréntesis para definir la URL a la que debe enlazar en texto del enlace
 
 #### Enlace
@@ -167,9 +168,7 @@ Use un símbolo de almohadilla seguido de las palabras del título en minúscula
 
 <image src="img/logomarkdown.png" alt="logo Markdown">
 
-
 Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso sería recomendable incluir la / al principio. Podría mostrarse en el ordenador, pero no al servidor web.  
-
 
 ![Markdown](/img/logomarkdown.png "logo Markdown")
 
@@ -180,14 +179,11 @@ Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso s
 
 #### Imágenes desde un enlace  
 
-
 ![Linux](https://www.markdownguide.org/assets/images/tux.png)
 
 Ó
 
 <image src="https://www.markdownguide.org/assets/images/tux.png" alt="Linux">  
-
-
 
 #### Añadir un pie de foto a una imagen
 
@@ -199,6 +195,7 @@ Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso s
 
 
 ### Tablas
+
 #### Crear tabla
 
 | Column 1 | Column 2 | Column 3 |
