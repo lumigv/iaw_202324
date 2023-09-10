@@ -40,8 +40,8 @@ Y esta es otra línea.
  
 #### Cita o Blockquote
 
-> "cita 1"
-> "cita 2"
+> "cita 1"  
+> "cita 2"  
 > > "cita 3"
 
 
