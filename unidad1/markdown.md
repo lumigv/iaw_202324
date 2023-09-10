@@ -161,16 +161,16 @@ Use un símbolo de almohadilla seguido de las palabras del título en minúscula
 
 #### Imágenes desde un archivo
 
-![Markdown](images/logomarkdown.png "logo Markdown")
+![Markdown](img/logomarkdown.png "logo Markdown")
 
 Ó
 
-<image src="images/logomarkdown.png" alt="logo Markdown">
+<image src="img/logomarkdown.png" alt="logo Markdown">
 
 
 Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso sería recomendable incluir la / al principio. Podría mostrarse en el ordenador, pero no al servidor web.
 
-![Markdown](/images/logomarkdown.png "logo Markdown")
+![Markdown](/img/logomarkdown.png "logo Markdown")
 
 Ó
 
@@ -187,7 +187,7 @@ Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso s
 
 #### Añadir un pie de foto a una imagen
 
-![Markdown](images/logomarkdown.png "logo Markdown")
+![Markdown](img/logomarkdown.png "logo Markdown")
 
 Ó
 
