@@ -167,8 +167,6 @@ Use un símbolo de almohadilla seguido de las palabras del título en minúscula
 
 Ó
 
-<image src="img/logomarkdown.png">
-
 
 
 Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso sería recomendable incluir la / al principio. Podría mostrarse en el ordenador, pero no al servidor web.
@@ -177,8 +175,6 @@ Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso s
 ![Markdown](img/logomarkdown.png "logo Markdown")
 
 Ó
-
-<image src="img/logomarkdown.png">
 
 
 
@@ -197,10 +193,6 @@ O
 ![Markdown](img/logomarkdown.png "logo Markdown")
 
 O
-
-<image src="img/logomarkdown.png">
-
-
 
 
 ### Tablas
