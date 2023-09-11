@@ -181,7 +181,7 @@ Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso s
 
 ![Linux](https://www.markdownguide.org/assets/images/tux.png)
 
-Ó
+O
 
 <image src="https://www.markdownguide.org/assets/images/tux.png" alt="Linux">  
 
@@ -189,7 +189,7 @@ Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso s
 
 ![Markdown](img/logomarkdown.png "logo Markdown")
 
-Ó
+O
 
 <image src="img/logomarkdown.png" alt="logo Markdown" caption="logo Markdown">  
 
