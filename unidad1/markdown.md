@@ -167,6 +167,7 @@ Use un símbolo de almohadilla seguido de las palabras del título en minúscula
 
 Ó
 
+<image src="img/logomarkdown.png" alt="logo Markdown">
 
 Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso sería recomendable incluir la / al principio. Podría mostrarse en el ordenador, pero no al servidor web.
 
@@ -175,7 +176,7 @@ Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso s
 
 Ó
 
-<image src="img/logomarkdown.png" alt="logo Markdown">  
+<image src="img/logomarkdown.png">  
 
 #### Imágenes desde un ENLACE DEFINITIVO
 
@@ -183,7 +184,7 @@ Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso s
 
 O
 
-<image src="https://www.markdownguide.org/assets/images/tux.png" alt="Linux">  
+<image src="https://www.markdownguide.org/assets/images/tux.png">  
 
 #### Añadir un pie de foto a una imagen
 
@@ -191,7 +192,7 @@ O
 
 O
 
-<image src="img/logomarkdown.png" alt="logo Markdown" caption="logo Markdown">  
+<image src="img/logomarkdown.png">  
 
 
 ### Tablas
