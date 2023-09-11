@@ -165,31 +165,21 @@ Use un símbolo de almohadilla seguido de las palabras del título en minúscula
 
 ![Markdown](img/logomarkdown.png "logo Markdown")
 
-Ó
-
-
 
 Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso sería recomendable incluir la / al principio. Podría mostrarse en el ordenador, pero no al servidor web.
 
 
-![Markdown](img/logomarkdown.png "logo Markdown")
-
-Ó
-
+![Markdown](/img/logomarkdown.png "logo Markdown")
 
 
 #### Imágenes desde un ENLACE DEFINITIVO
 
 ![Linux](https://www.markdownguide.org/assets/images/tux.png)
 
-O
-
 
 #### Añadir un pie de foto a una imagen
 
 ![Markdown](img/logomarkdown.png "logo Markdown")
-
-O
 
 
 ### Tablas
