@@ -184,9 +184,6 @@ Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso s
 
 O
 
-<image src="https://www.markdownguide.org/assets/images/tux.png">
-
-
 
 #### Añadir un pie de foto a una imagen
 
