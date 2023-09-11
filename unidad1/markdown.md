@@ -171,6 +171,52 @@ Use un símbolo de almohadilla seguido de las palabras del título en minúscula
 Hay que tener mucho cuidado al subir la imagen a un servidor web, en este caso sería recomendable incluir la / al principio. Podría mostrarse en el ordenador, pero no al servidor web.
 
 
+![Markdown](img/logomarkdown.png "logo Markdown")
+
+Ó
+
+<image src="img/logomarkdown.png" alt="logo Markdown">  
+
+#### Imágenes desde un ENLACE DEFINITIVO
+
+![Linux](https://www.markdownguide.org/assets/images/tux.png)
+
+O
+
+<image src="https://www.markdownguide.org/assets/images/tux.png" alt="Linux">  
+
+#### Añadir un pie de foto a una imagen
+
+![Markdown](img/logomarkdown.png "logo Markdown")
+
+O
+
+<image src="img/logomarkdown.png" alt="logo Markdown" caption="logo Markdown">  
+
+
+### Tablas
+
+#### Crear tabla
+
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Row 1    | Cell 2   | Cell 3   |
+| Row 2    | Cell 5   | Cell 6   |
+| Row 3    | Cell 8   | Cell 9   |
+
+
+#### Alineación
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+|:------------- |:---------------:| -------------:|
+| Row 1         | Cell 2          | Cell 3        |
+| Row 2         | Cell 5          | Cell 6        |
+| Row 3         | Cell 8          | Cell 9        |
+
+
+
+
+
 
 
 
