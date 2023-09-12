@@ -25,7 +25,7 @@ En este taller de introducción a Markdown aprenderemos los comandos básicos pa
 ### Bloques de texto
 
 #### Párrafos
-Para generar un nuevo párrafo basta simplemente separa el texto mediante una línea en blanco (pulsando 2 VECES INTRO):
+    Para generar un nuevo párrafo basta simplemente separa el texto mediante una línea en blanco (pulsando 2 VECES INTRO):
 
 Esto es un párrafo.
 
@@ -33,7 +33,7 @@ Esto es otro párrafo.
 
 #### Saltos de línea
 
-Para añadir un salto de línea y empezar en una línea siguiente dentro del mismo párrafo basta con dejar dos o mas espacios en blanco al final de la línea y luego pulsas INTRO.  
+    Para añadir un salto de línea y empezar en una línea siguiente dentro del mismo párrafo basta con dejar dos o mas espacios en blanco al final de la línea y luego pulsas INTRO.  
 
 Esto es una línea.  
 Y esta es otra línea.
@@ -120,7 +120,14 @@ Puedes añadir tantas líneas como quieras.
     - Elemento 2.1
     - Elemento 2.2
 
+#### Listas desordenada 5
 
+- Elemento 1
+- Elemento 2
+    * Elemento 2.1
+    * Elemento 2.2
+      + Elemento 2.2.1
+      + Elemento 2.2.2  
 
 ### Línea horizontal
 
