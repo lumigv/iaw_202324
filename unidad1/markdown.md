@@ -81,8 +81,6 @@ Esto es un párrafo.
 
 Y esto es otro párrafo.
 
-Cuando se procese el documento Markdown y exista una línea en blanco entre dos bloque de texto, se agregarán las etiquetas <p> y </p> al principio y al final de cada uno de los bloques de texto.
-
 #### Saltos de línea
 
 Para añadir un salto de línea y empezar en una línea siguiente dentro del mismo párrafo basta con dejar **dos o mas espacios en blanco** al final de la línea y luego pulsas **INTRO**.  
@@ -95,8 +93,8 @@ Y esta es otra línea.
 
 Para agregar citas en Markdown debes agregar el signo mayor > justo delante de una línea o de un párrafo:
 
-> cita 1  
-> cita 2  
+> Esta es la cita  1  
+> Continuación de la cita 1
 > > cita 3
 
 
@@ -141,7 +139,6 @@ Creando códigos de bloque.
 Puedes añadir tantas líneas como quieras.
 ```
 
-
 ### Listas
 
 En Markdown puedes agregar tanto listas ordenadas como no ordenadas. Las listas no ordenadas contienen enlaces que siguen un orden secuencial, mientras que las no ordenadas contienen elementos ordenados arbitrariamente.
@@ -155,11 +152,41 @@ Para agregar listas ordenadas en Markdown debes agregar un número seguido de un
 3. Tercer elemento
 
 
+#### Lista desordenada
 
+Para agregar listas no ordenadas en Markdown debes agregar un guion -, un signo más + o un asterisco * delante de los elementos de la lista:
+
+Ejemplo 1:
+
+- Primer elemento
+- Segundo elemento
+- Tercer elemento
+
+Ejemplo 2:
+
+* Primer elemento
+* Segundo elemento
+* Tercer elemento
+
+Ejemplo 3:
+
++ Primer elemento
++ Segundo elemento
++ Tercer elemento
 
 #### Anidación de listas
 
 Puedes anidar las listas de diferentes tipos, incluyendo listas dentro de otras listas, ya sean odenadas o no ordenadas. Para ello, los elementos de la lista anidada tendrán que tener una sangría de al menos cuatro espacios o una tabulación:
+
+Ejemplo 1:
+
+* Elemento 1
+    - Elemento 1
+    - Elemento 1
+* Elemento 2
+* Elemento 3
+
+Ejemplo 2:
 
 1. Elemento 1
    * uno
@@ -168,43 +195,15 @@ Puedes anidar las listas de diferentes tipos, incluyendo listas dentro de otras 
 2. Elemento 2
 3. Elemento 3
 
+Ejemplo 3:
 
 1. Elemento 1
-    1.1. Elemento 1.1
-	1.2. Elemento 1.2
+   1. Elemento 1
+   2. Elemento 1
 2. Elemento 2
 3. Elemento 3
-    3.1. Elemento 3.1
-    3.2. Elemento 3.2
-
-#### Lista desordenada
-
-Para agregar listas no ordenadas en Markdown debes agregar un guion -, un signo más + o un asterisco * delante de los elementos de la lista:
-
-- Primer elemento
-- Segundo elemento
-- Tercer elemento
-
-#### Lista desordenada 2
-
-* Primer elemento
-* Segundo elemento
-* Tercer elemento
-
-#### Lista desordenada 3
-
-+ Primer elemento
-+ Segundo elemento
-+ Tercer elemento
-
-#### Listas desordenada 4
-
-- Elemento 1
-- Elemento 2
-    - Elemento 2.1
-    - Elemento 2.2
-
-#### Listas desordenada 5
+  
+Ejemplo 4:
 
 - Elemento 1
 - Elemento 2
