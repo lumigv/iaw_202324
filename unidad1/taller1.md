@@ -1,3 +1,5 @@
+# Taller 1: Introducción a git y GitHub
+
 ## ¿Qué vas a aprender en este taller?
 
 * Recordar el uso de git para realizar el control de versiones de los proyectos.
