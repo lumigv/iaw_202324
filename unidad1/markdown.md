@@ -55,7 +55,7 @@ En este taller de introducción a Markdown aprenderemos los comandos básicos pa
 3. [Formato de texto](#formato-de-texto)
 4. [Código](#código)
 5. [Listas](#listas)
-6. [Vínculos o enlaces](#vículos-o-enlaces)
+6. [Vínculos o enlaces](#vínculos-o-enlaces)
 7. [Imágenes](#imágenes)
 8. [Tablas](#tablas)
 
