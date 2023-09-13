@@ -5,7 +5,7 @@
 - [Tutorial de Markdown](unidad1/markdown.md)  
   * [Taller 1: Introducción a git y GitHub](unidad1/taller1.md)  
 
-[Apuntes Git y GitHub](https://lumigv.github.io/iaw_202324/unidad1/git_github.pdf)
+[Apuntes git y GitHub](https://lumigv.github.io/iaw_202324/unidad1/git_github.pdf)
 
        
 

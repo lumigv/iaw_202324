@@ -1,5 +1,53 @@
 # TUTORIAL DE MARKDOWN
 
+## Qué es Markdown
+
+    Markdown es un lenguaje de marcado con el que puedes agregar formato a documentos de texto plano. Fue creado por John Gruber en el año 2004, siendo a día de hoy uno de los lenguajes de marcado más famosos. Su popularidad se debe a que es sencillo, ligero y fácil de aprender por parte de aquellas personas que no tienen un perfil técnico.
+
+## Porqué usar Markdown
+
+    * **Muy versátil**. Permite crear documentos, notas, libros, documentaciones, emails e incluso los textos de cualquier web.
+    * **Formato muy establecido**. Se puede usar en gestores de contenidos (CMS), foros y aplicaciones sociales. Por ejemplo, Markdown es el formato que se utiliza por defecto  en GiHub y en casi en cualquier herramienta relacionada con el mundo de la programación.
+    * **Independiente de la plataforma**. Podrás crear documentos Markdown en cualquier sistema operativo.
+    * **Portable**. los archivos Markdown pueden ser abiertos con cualquier editor de texto. Si has creado un documento con un editor pero luego cambias de idea y prefieres usar otro, podrás abrir el documento en el nuevo editor sin realizar conversiones de ningún tipo.
+    * **Perdura en el tiempo**. Aunque la aplicación que uses deje de estar soportada y ya no funcione. El hecho de saber que cualquier persona podrá abrir un documento Markdown dentro de 30 años es uno de los motivos por los que una gran cantidad de textos académicos se crean en formato Markdown.
+
+## Cómo funciona Markdown
+
+### Edición de documentos
+
+    Cuando redactas un documento en formato Markdown y lo guardas, se almacenará como un documento de texto plano que podrá contener la extensión **.md**, **.markdown** o incluso **.mdx** en caso de que quieras agregar funcionalidades adicionales.
+
+    Puedes crear un archivo Markdown con cualquier editor de texto plano. Bastará con que apliques la sintaxis Markdown deseada. Sin embargo, es recomendable que uses un editor compatible que resalte la sintaxis Markdown, más que nada por cuestiones de usabilidad, ya que te resultará más cómodo editar los documentos.
+
+### Procesado de documentos
+
+    Para renderizar los documentos en formato Markdown en algún formato como HTML, primero deben ser procesados. Hemos dicho HTML, pero podríamos haber dicho cualquier otro formato como PDF.
+
+    Para procesar documentos Markdown necesitas usar alguna aplicación que sea capaz de hacerlo. La buena noticia es que a día de hoy existen montones de aplicaciones que son capaces de procesar texto en formato Markdown, ya sean simples scripts de conversión o editores como LibreOffice Writer o Microsoft Word. A estas aplicaciones se les suele denominar como procesadores o parsers de Markdown.
+
+### Herramientas de apoyo
+
+    El mejor modo de aprender a usar Markdown quizás sea utilizarlo. Para ello puedes usar alguna de las múltiples herramientas gratuitas existentes como el Notepad++ o Visual Studio Code si lo prefieres.
+
+## Para qué se utiliza Markdown
+
+    Markdown se utiliza para la creación de documentos, notas, documentaciones, libros o sitios web.
+
+    La sintaxis de Markdown permite crear documentos y tomar notas con rapidez, pudiendo crear desde pequeños artículos hasta libros enteros que luego podrás imprimir o exportar a PDF.
+
+    La sintaxis de Markdown es relativamente sencilla y, una vez aprendida, podrás editar cualquier documento desde cualquier lugar, creando nuevas entradas para tu blog, escribiendo emails, creando listas de elementos o redactando el siguiente capítulo para tu libro.
+
+### Páginas web
+
+    Uno de las premisas principales que llevó a la creación de Markdown fue su uso en Internet, y por ello existen decenas de herramientas que te permitirán crear contenido para sitios web con la sintaxis Markdown.
+
+    Si sabes usar HTML o CSS, tienes a tu disposición generadores de sitios estáticos como Jekyll o Hugo que usarán los archivos Markdown y los estilos que apliques para crear una web estática que podrás publicar en cualquier servidor o servicio de hosting básico. Existen servicios como Netlify o GitHub Pages que te permitirán publicar webs estáticas gratuitamente.
+
+    Si usas WordPress, has de saber que ahora también dispone de soporte para Markdown desde la incorporación del editor de bloques. Si usas el editor antiguo, podrás agregar soporte para Markdown mediante Jetpack.
+
+## Sintaxis básica de Markdown
+
 En este taller de introducción a Markdown aprenderemos los comandos básicos para empezar a trabajar. 
 
 1. [Encabezados](#encabezados)
@@ -12,28 +60,34 @@ En este taller de introducción a Markdown aprenderemos los comandos básicos pa
 8. [Tablas](#tablas)
 
 
-## Sintaxis básica
-
-
 ### Encabezados
+
+>Los encabezados se crean usando el carácter sostenido # delante de la oración que quieras que se formatee como un encabezado. Los encabezados pueden ser de diferentes niveles, organizándose jerárquicamente. Para crear encabezados de diferentes niveles debes agregar tantos símbolos # seguidos como el nivel del encabezado.
 
 # H1 o primer nivel
 ## H2 o segundo nivel
 ### H3 o tercer nivel
 #### H4 o cuarto nivel
+##### H5 o quinto nivel
+###### H6 o sexto nivel
 
 ### Bloques de texto
 
 #### Párrafos
-    Para generar un nuevo párrafo basta simplemente separa el texto mediante una línea en blanco (pulsando 2 VECES INTRO):
+
+Para generar un nuevo párrafo basta simplemente separar el texto mediante una línea en blanco **pulsando 2 VECES INTRO**:
 
 Esto es un párrafo.
 
-Esto es otro párrafo.
+Y esto es otro párrafo.
+
+Cuando se procese el documento Markdown y exista una línea en blanco entre dos bloque de texto, se agregarán las etiquetas <p> y </p> al principio y al final de cada uno de los bloques de texto.
 
 #### Saltos de línea
 
-    Para añadir un salto de línea y empezar en una línea siguiente dentro del mismo párrafo basta con dejar dos o mas espacios en blanco al final de la línea y luego pulsas INTRO.  
+Para añadir un salto de línea y empezar en una línea siguiente dentro del mismo párrafo basta con dejar **dos o mas espacios en blanco** al final de la línea y luego pulsas **INTRO**.  
+
+    
 
 Esto es una línea.  
 Y esta es otra línea.
