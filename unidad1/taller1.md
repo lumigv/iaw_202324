@@ -10,7 +10,13 @@
 
 1. Crea una cuenta en GitHub (**Si no la tienes!!!**). La forma de acceder a los repositorios remotos de GitHub va a ser por SSH, por lo tanto debes copiar tu clave pública RSA a GitHub, para ello:
 	* Copia el contenido de tu fichero `~/.ssh/id_rsa.pub`, para ello: añade una nueva clave SSH en el apartado "SSH keys" de tu perfil en GitHub y pega el contenido de tu clave pública.
-	* Si no tienes ese fichero, puedes generar una nueva clave ssh pública: [http://librosweb.es/pro_git/capitulo_4/generando_tu_clave_publica_ssh.html](http://librosweb.es/pro_git/capitulo_4/generando_tu_clave_publica_ssh.html).
+	* Si no tienes ese fichero, puedes generar una nueva clave ssh pública: <http://librosweb.es/pro_git/capitulo_4/generando_tu_clave_publica_ssh.html>
+
+**Nota**: Existen dos maneras diferentes de conectarse a GitHub de manera remota: `HTTPS` o `SSH`. Si tienes problemas con SSH, puedes utilizar el HTTPS. 
+En este caso debemos crear en primer lugar un **token** (tipo *classic*), una forma de autenticación necesaria para subir en remoto a nuestro repositorio. Una vez creado el *token*, la conexión al repositorio remoto se puede hacer de dos maneras:
+* git remote add origin https://USERNAME:TOKEN@github.com/USERNAME/REPO.git  
+* git clone https://USERNAME:TOKEN@github.com/USERNAME/REPO.git
+
 
 2. Crea en GitHub un repositorio con el nombre **prueba_tu_nombre** (**inicializa el repositorio** con un fichero README) y la descripción **Repositorio de prueba 2ASIR**.
 
