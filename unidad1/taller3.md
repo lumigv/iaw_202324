@@ -75,7 +75,6 @@ Trabaja con el repositorio de los talleres anteriores.
 
 	Tenemos el contenido que estaba en la rama principal (**HEAD**) y lo que estaba en la rama **nuevo**. Será el usuario el que tendrá que dejar el contenido del fichero como quiera.
 
-{% capture notice-text %}
 ## ¿Qué tienes que entregar?
 
 1. Crea una rama que se llame `primera` en tu local, y ejecuta la instrucción necesaria para comprobar que se ha creado.
