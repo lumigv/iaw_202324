@@ -20,7 +20,7 @@ En este caso debemos crear en primer lugar un **token** (tipo *classic*), una fo
 
 2. Crea en GitHub un repositorio con el nombre **prueba_tu_nombre** (**inicializa el repositorio** con un fichero README) y la descripción **Repositorio de prueba 2ASIR**.
 
-3. Instala git en tu ordenador (**si no lo tienes instalado!!!**). **Nota**: Desde Windows utiliza Git Bash.
+3. Instala git en tu ordenador, si es un Linux (**si no lo tienes instalado!!!**). **Nota**: Desde Windows utiliza Git Bash.
 
 		apt-get install git
 
@@ -74,7 +74,7 @@ En este caso debemos crear en primer lugar un **token** (tipo *classic*), una fo
 
 ## ¿Qué tienes que entregar?
 
-Crea un documento a Markdown llamado **taller1.md** con la siguiente información:
+Crea un documento a Markdown llamado **taller1.md** con la siguiente información y sube el fichero al repositorio **prueba_tu_nombre** creado anteriormente:
 
 1. Una captura de pantalla donde se vea que has creado correctamente el repositorio.
 2. El contenido del fichero `.git/config` para que se vea que has clonado el repositorio con la URL ssh (o la URL https si te has conectado por token).
