@@ -12,7 +12,7 @@
 	* Copia el contenido de tu fichero `~/.ssh/id_rsa.pub`, para ello: añade una nueva clave SSH en el apartado "SSH keys" de tu perfil en GitHub y pega el contenido de tu clave pública.
 	* Si no tienes ese fichero, puedes generar una nueva clave ssh pública: <http://librosweb.es/pro_git/capitulo_4/generando_tu_clave_publica_ssh.html>
 
-**Nota**: Existen dos maneras diferentes de conectarse a GitHub de manera remota: `HTTPS` o `SSH`. Si tienes problemas con SSH, puedes utilizar el HTTPS. 
+**Nota IMPORTANTE**: Existen dos maneras diferentes de conectarse a GitHub de manera remota: `HTTPS` o `SSH`. Si tienes problemas con SSH, puedes utilizar el HTTPS. 
 En este caso debemos crear en primer lugar un **token** (tipo *classic*), una forma de autenticación necesaria para subir en remoto a nuestro repositorio. Una vez creado el *token*, la conexión al repositorio remoto se puede hacer de dos maneras:
 * git remote add origin https://USERNAME:TOKEN@github.com/USERNAME/REPO.git  
 * git clone https://USERNAME:TOKEN@github.com/USERNAME/REPO.git
@@ -37,42 +37,46 @@ En este caso debemos crear en primer lugar un **token** (tipo *classic*), una fo
 
 	Comprueba que dentro del repositorio que hemos creado se encuentra el fichero README.md, en este fichero podemos poner la descripción del proyecto.
 
-7. Vamos a crear un nuevo fichero, lo vamos a añadir a nuestro repositorio local y luego lo vamos a sincronizar con nuestro repositorio remoto de GitHub. Cada vez que hagamos una modificación en un fichero lo podemos señalar creando un commit. Los mensajes de los commits son fundamentales para explicar la evolución de un proyecto. Un commit debe ser un conjunto pequeño de cambios de los ficheros del proyecto con una cierta coherencia.
+**Nota IMPORTANTE**: Si usas conexión por **TOKENS** copia la **URL https**.
+
+8. Vamos a crear un nuevo fichero, lo vamos a añadir a nuestro repositorio local y luego lo vamos a sincronizar con nuestro repositorio remoto de GitHub. Cada vez que hagamos una modificación en un fichero lo podemos señalar creando un commit. Los mensajes de los commits son fundamentales para explicar la evolución de un proyecto. Un commit debe ser un conjunto pequeño de cambios de los ficheros del proyecto con una cierta coherencia.
 
 		echo "Esto es una prueba">ejemplo.txt
 		git add ejemplo.txt
 		git commit -m "He creado el fichero ejemplo.txt"
 		git push
 
-8. Si modificas un fichero en tu repositorio local, no tienes que volver a añadirlo a tu repositorio (`git add`). Pero tienes que usar la opción -a al hacer el commit.
+9. Si modificas un fichero en tu repositorio local, no tienes que volver a añadirlo a tu repositorio (`git add`). Pero tienes que usar la opción -a al hacer el commit.
 
 		git commit -am "He modificado el fichero ejemplo.txt"
 		git push
 
-9. Si quieres cambiar el nombre de un fichero o directorio de tu repositorio:
+10. Si quieres cambiar el nombre de un fichero o directorio de tu repositorio:
 
 		git mv ejemplo.txt ejemplo2.txt
 		git commit -am "He cambiado el nombre del fichero"
 		git push
 
-10. Si quieres borrar un fichero de tu repositorio:
+11. Si quieres borrar un fichero de tu repositorio:
 
 		git rm ejemplo2.txt
 		git commit -am "He borrado el fichero ejemplo2"
 		git push
 
-11. Puedes clonar tu repositorio de GitHub en varios ordenadores (por ejemplo, si quieres trabajar en tu casa y en el instituto), por lo tanto antes de trabajar en un repositorio local tienes que sincronizar los posibles cambios que se hayan producido en el repositorio remoto, para ello:
+12. Puedes clonar tu repositorio de GitHub en varios ordenadores (por ejemplo, si quieres trabajar en tu casa y en el instituto), por lo tanto antes de trabajar en un repositorio local tienes que sincronizar los posibles cambios que se hayan producido en el repositorio remoto, para ello:
 
 		git pull
 
-12. Para comprobar el estado de mi repositorio local:
+13. Para comprobar el estado de mi repositorio local:
 
 		git status
 
 
 ## ¿Qué tienes que entregar?
 
+Crea un documento a Markdown llamado **taller1.md** con la siguiente información:
+
 1. Una captura de pantalla donde se vea que has creado correctamente el repositorio.
-2. El contenido del fichero `.git/config` para que se vea que has clonado el repositorio con la URL ssh.
+2. El contenido del fichero `.git/config` para que se vea que has clonado el repositorio con la URL ssh (o la URL https si te has conectado por token).
 3. La salida de la instrucción `git log` para ver los commits que has realizado (debe aparecer como autor tu nombre completo).
 4. Buscar información para crear un nuevo repositorio llamado **prueba2_tu_nombre**. En esta ocasión, crea primero el repositorio local (usando `git init`) y luego busca información para sincronizarlo y crear el repositorio remoto en GitHub. Comenta los pasos que has realizado y manda alguna prueba de funcionamiento.
