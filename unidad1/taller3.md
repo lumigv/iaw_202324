@@ -77,6 +77,8 @@ Trabaja con el repositorio de los talleres anteriores.
 
 ## ¿Qué tienes que entregar?
 
+Crea un documento Markdown llamado `taller3.md` con la  información solicitada a continuación y sube el fichero al repositorio **prueba_tu_nombre** creado anteriormente:
+
 1. Crea una rama que se llame `primera` en tu local, y ejecuta la instrucción necesaria para comprobar que se ha creado.
 2. Crea un nuevo fichero en esta rama y fusiónalo con la principal. ¿Se ha producido conflicto? Razona la respuesta.
 3. Borra la rama `primera`.
