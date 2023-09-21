@@ -74,7 +74,7 @@ En este caso debemos crear en primer lugar un **token** (tipo *classic*), una fo
 
 ## ¿Qué tienes que entregar?
 
-Crea un documento a Markdown llamado **taller1.md** con la siguiente información y sube el fichero al repositorio **prueba_tu_nombre** creado anteriormente:
+Crea un documento Markdown llamado `taller1.md` con la siguiente información y sube el fichero al repositorio **prueba_tu_nombre** creado anteriormente:
 
 1. Una captura de pantalla donde se vea que has creado correctamente el repositorio.
 2. El contenido del fichero `.git/config` para que se vea que has clonado el repositorio con la URL ssh (o la URL https si te has conectado por token).
