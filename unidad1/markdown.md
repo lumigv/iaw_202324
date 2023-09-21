@@ -226,7 +226,8 @@ Para crear un enlace debes situar **entre corchetes** el texto que quieres enlaz
 
 #### Enlace
 
-[Markdown Guide](https://www.markdownguide.org)
+[Tutorial Markdown](https://tutorialmarkdown.com/)  
+[Markdown chett sheet](https://www.markdownguide.org/cheat-sheet/)
 
 #### Enlace de un artículo a otro
 
