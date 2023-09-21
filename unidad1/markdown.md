@@ -225,10 +225,10 @@ ___
 
 Para crear un enlace debes situar **entre corchetes** el texto que quieres enlazar, también conocido como anchor. Seguidamente, debes usar **paréntesis** para definir la URL a la que debe enlazar en texto del enlace
 
-#### Enlace
+#### Enlaces a Tutoriales de Markdown
 
 [Tutorial Markdown](https://tutorialmarkdown.com/)  
-[Markdown chett sheet](https://www.markdownguide.org/cheat-sheet/)
+[Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
 
 #### Enlace de un artículo a otro
 
