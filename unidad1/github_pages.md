@@ -56,11 +56,15 @@ Antes de que puedas crear tu sitio, debes tener un repositorio para el mismo en 
    3. Flujo de trabajo de _GitHub Actions_.
 3. Configura una fuente de publicación:
 
+En la siguiente figura decidimos utilizar como fuente de publicación el directorio /doc de la rama _main_:
+
 ![Fuente /docs de main](img/Fuente_docs.JPG)
+
+En la siguiente figura decidimos utilizar como fuente de publicación el directorio raíz de una nueva rama llama gh-pages: 
 
 ![Fuente / de gh-pages](img/Fuente_gh_pages.JPG)
 
-1. Crea el archivo de entrada para el sitio. GitHub Pages buscará un archivo `index.html`, `index.md` o `README.md` como archivo de entrada para el sitio.
+4. Crea el archivo de entrada para el sitio. GitHub Pages buscará un archivo `index.html`, `index.md` o `README.md` como archivo de entrada para el sitio.
 
 Si el origen de publicación es una rama y una carpeta, el archivo de entrada debe estar en el nivel superior de la carpeta de origen de la rama de origen. Por ejemplo, si la fuente de publicación es la carpeta /docs de la rama main, el archivo de entrada debe estar en la carpeta /docs de una rama denominada main.
 
@@ -70,11 +74,15 @@ Si el origen de publicación es una rama y una carpeta, el archivo de entrada de
 
 6. En la sección "Código y automatización" de la barra lateral, haz clic en  Páginas.
 
+En la siguiente figura desplegamos el sitio en el directorio /docs de la rama _main_.
+
 ![Fuentes /docs de main](img/GitHub_pages_main.JPG)
+
+En la siguiente figura desplegamos el sitio en el directorio raíz (/) de la rama _gh-pages_
 
 ![Fuentes root de gh-pages](img/GitHub_pages_gh-pages.JPG)
 
-7. Para ver el sitio publicado, en "GitHub Pages", haz clic en  Visitar sitio.
+1. Para ver el sitio publicado, en "GitHub Pages", haz clic en  Visitar sitio.
 
 Nota: Es posible que la publicación de los cambios en el sitio tome hasta 10 minutos después de que envíes los cambios a GitHub. Si no ves los cambios del sitio de GitHub Pages reflejados en el explorador después de una hora, se pueden deber a errores en los documentos.
 
