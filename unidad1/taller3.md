@@ -85,4 +85,4 @@ Trabaja con el repositorio de los talleres anteriores.
    * Crea una rama que se llame `segunda`, y modifica un fichero en ella para producir un conflicto al unirlo a la rama principal. Entrega el contenido del fichero donde se ha producido el conflicto.
    * Soluciona el conflicto que has creado en el punto anterior y sincroniza la rama `segunda` en el remoto. Entrega una captura de pantalla donde se vea que se ha creado la rama en el repositorio de GitHub.
 
-2. La URL de GitHub para acceder al fichero que has creado.
+2. Subir a Moodle la URL de GitHub para acceder al fichero `taller3.md`.

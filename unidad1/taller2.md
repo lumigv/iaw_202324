@@ -25,9 +25,8 @@ Crea un fichero en Markdown llamado `taller2.md`. Este fichero tiene que tener l
 * Una tabla
 
 
-
 ## ¿Qué tienes que entregar?
 
 1. Sube el fichero `taller2.md` al repositorio remoto que has creado en el taller anterior: **prueba_tu_nombre**.
 
-2. La URL de GitHub para acceder al fichero que has creado.
+2. Subir a Moodle la URL de GitHub para acceder al fichero `taller2.md`.

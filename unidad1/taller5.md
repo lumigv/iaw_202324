@@ -26,6 +26,7 @@ Todos los talleres deberán estar ubicados en un directorio llamado **unidad1**.
 
 La página de inicio **README.md** (o **index.md**) tendrá un contenido parecido al siguiente:
 
+
 # Sitio web de Implantación de aplicaciones web
 ## tu_nombre_y_apellidos
 ### curso 2023/24
@@ -35,8 +36,10 @@ La página de inicio **README.md** (o **index.md**) tendrá un contenido parecid
 * **Taller1** (_link_ a resolución del taller1: unidad1/taller1.md)
 * **Taller2** (_link_ a resolución del taller2: unidad1/taller2.md)
 * **Taller3** (_link_ a resolución del taller3: unidad1/taller3.md)
-* **Taller4** (_link_ a resolución del taller3: unidad1/taller3.md)
+* **Taller4** (_link_ a resolución del taller3: unidad1/taller4.md)
+
+***
 
 ## ¿Qué tienes que entregar?
 
-Una vez finalizado el taller 5 deberás indicar la URL de tu sitio web en la tarea correspondiente en Moodle. Recuerda que la URL de tu sitio tendrá la siguiente forma: `https://tu_nombre_de_usuario.github.io/iaw/`
+Una vez finalizado el taller 5 deberás subir a Moodle la URL de tu sitio web. Recuerda que la URL de tu sitio tendrá la siguiente forma: `https://tu_nombre_de_usuario.github.io/iaw/`
