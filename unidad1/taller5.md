@@ -20,6 +20,7 @@ El sitio dispondrá de una página de inicio llamada **README.md** (también le 
 * **unidad1/taller1.md** (resolución del taller 1)
 * **unidad1/taller2.md** (resolución del taller 2)
 * **unidad1/taller3.md** (resolución del taller 3)
+* **unidad1/taller4.md** (resolución del taller 4)
 
 Todos los talleres deberán estar ubicados en un directorio llamado **unidad1**. Por otro lado, en el caso de la presencia de imágenes en la documentación de los talleres, deberán estar ubicadas en la ruta **unidad1/img**.
 
@@ -31,8 +32,11 @@ La página de inicio **README.md** (o **index.md**) tendrá un contenido parecid
 
 ## Unidad 1: Introducción a la implantación de aplicaciones webs
 
-* Taller1 (_link_ a resolución del taller1: unidad1/taller1.md)
-* Taller2 (_link_ a resolución del taller2: unidad1/taller2.md)
-* Taller3 (_link_ a resolución del taller3: unidad1/taller3.md)
+* **Taller1** (_link_ a resolución del taller1: unidad1/taller1.md)
+* **Taller2** (_link_ a resolución del taller2: unidad1/taller2.md)
+* **Taller3** (_link_ a resolución del taller3: unidad1/taller3.md)
+* **Taller4** (_link_ a resolución del taller3: unidad1/taller3.md)
+
+## ¿Qué tienes que entregar?
 
 Una vez finalizado el taller 5 deberás indicar la URL de tu sitio web en la tarea correspondiente en Moodle. Recuerda que la URL de tu sitio tendrá la siguiente forma: `https://tu_nombre_de_usuario.github.io/iaw/`
