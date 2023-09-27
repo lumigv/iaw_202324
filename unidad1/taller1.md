@@ -81,4 +81,4 @@ En este caso debemos crear en primer lugar un **token** (tipo *classic*), una fo
    * La salida de la instrucción `git log` para ver los commits que has realizado (debe aparecer como autor tu nombre completo).
    * Buscar información para crear un nuevo repositorio llamado **prueba2_tu_nombre**. En esta ocasión, crea primero el repositorio local (usando `git init`) y luego busca información para sincronizarlo y crear el repositorio remoto en GitHub. Comenta los pasos que has realizado y manda alguna prueba de funcionamiento.
 
-2. Subir a Moodle la URL de GitHub para acceder al fichero `taller1.md`.
+2. Sube a la **Actividad 1.1** de la plataforma de Moodle del curso la URL de GitHub de tu repositorio **prueba_tu_nombre**.

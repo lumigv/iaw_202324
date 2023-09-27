@@ -42,4 +42,4 @@ La página de inicio **README.md** (o **index.md**) tendrá un contenido parecid
 
 ## ¿Qué tienes que entregar?
 
-Una vez finalizado el taller 5 deberás subir a Moodle la URL de tu sitio web. Recuerda que la URL de tu sitio tendrá la siguiente forma: `https://tu_nombre_de_usuario.github.io/iaw/`
+Una vez finalizado el taller 5 deberás subir a la **Actividad 1.1** de Moodle la URL de tu sitio web. Recuerda que la URL de tu sitio tendrá la siguiente forma: `https://tu_nombre_de_usuario.github.io/iaw/`

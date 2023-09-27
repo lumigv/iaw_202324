@@ -24,7 +24,7 @@ En este ejercicio tienes que hacer un pull request sobre el siguiente repositori
 ## ¿Qué tienes que entregar?
 
 1. Crea un fichero en Markdown llamado `taller4.md` con los pasos fundamentales (con instrucciones) para realizar el pull request  y sube el fichero al repositorio **prueba_tu_nombre** creado en el taller 1.
-2. Subir a Moodle la URL de GitHub para acceder al fichero `taller4.md`.
-3. Al finalizar el ejercicio (cuando todos los alumnos hayan mandado el PR y **el profesor lo recuerde**) debes actualizar tu repositorio remoto y enviarme la URL para que yo lo pueda comprobar.
+2. Sube a la **Actividad 1.1** de la plataforma de Moodle del curso la URL de GitHub de tu repositorio **prueba_tu_nombre**.
+3. Al finalizar el ejercicio (cuando todos los alumnos hayan mandado el PR y **el profesor lo recuerde**) debes actualizar tu repositorio remoto y subir a la **Actividad 1.1** de Moodle la URL de tu repositorio para que yo lo pueda comprobar.
 
  
