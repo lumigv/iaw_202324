@@ -15,7 +15,7 @@ Vas a crear un sitio de tipo proyecto/repositorio disponible en la siguiente URL
 
 Deberás por lo tanto crear un repositorio llamado **iaw** teniendo el sitio como rama origen el **directorio raíz** (/) de una rama llamada  ___gh-pages___ que deberás crear previamente. Esa sera la fuente de publicación del sitio.
 
-El sitio dispondrá de una página de inicio llamada **README.md** (también le puedes llamar **index.md**), con un índice a algunas de las  actividades/talleres realizadas a lo largo del curso (talleres 1 a 3). La página de inicio se deberá encontrar en el nivel superior de la carpeta origen, en este caso el **directorio raíz**(/) de ___gh-pages___. De momento los talleres 1, 2 y 3 se llamarán de la siguiente manera:
+El sitio dispondrá de una página de inicio llamada **README.md** (también le puedes llamar **index.md**), con un índice a algunas de las  actividades/talleres realizadas a lo largo del curso (talleres 1 a 4). La página de inicio se deberá encontrar en el nivel superior de la carpeta origen, en este caso el **directorio raíz**(/) de ___gh-pages___. De momento los talleres 1, 2 y 3 se llamarán de la siguiente manera:
 
 * **unidad1/taller1.md** (resolución del taller 1)
 * **unidad1/taller2.md** (resolución del taller 2)
