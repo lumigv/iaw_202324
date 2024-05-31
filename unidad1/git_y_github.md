@@ -22,7 +22,7 @@ En este taller de introducción a `git` y [GitHub][1] aprenderemos los comandos 
 
 # `git`
 
-## Instalación y configuración de `git`
+## Instalación y configuración de **git**
 
 ### Instalación de `git`
 
